@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.footer,
+.hero-container {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding: 50px;
+    color: #f9faf8
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.mountain-img {
+    width: 400px;
+    margin: 40px 60px 40px 40px;
+}
+
+.hero-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
