@@ -1,46 +1,137 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .header,
 .footer,
 .hero-container {
-    background-color: #1f2937;
+  background-color: #1f2937;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 24px;
-    padding: 50px;
-    color: #f9faf8
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  padding: 20px 100px 50px 100px;
+  color: #f9faf8;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    gap: 25px
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
 }
 
 a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .mountain-img {
-    width: 400px;
-    margin: 40px 60px 40px 40px;
+  width: 400px;
+  margin: 40px 60px 40px 40px;
 }
 
 .hero-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    flex: 1;
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  padding: 0 70px 60px 70px;
 }
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  background-color: #3882f6;
+}
+
+.hero-button {
+  padding: 5px 25px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-section > h2 {
+  font-size: 36px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.items {
+  width: 150px;
+  text-align: center;
+}
+
+.images {
+  width: 120px;
+  aspect-ratio: 1/1;
+  border-radius: 9px;
+  border: 3px solid #3882f6;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 570px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-weight: bold;
+  text-align: right;
+}
+
+.author::before {
+  content: "\2014\0020";
+}
+
+.CTA-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.CTA {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 
